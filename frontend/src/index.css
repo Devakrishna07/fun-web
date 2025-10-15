@@ -1,10 +1,11 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 @font-face {
     font-family: "Azonix";
-    src: url('./assets/Font/azonix/Azonix.otf') format('opentype');
+    src: url('../public/font/Azonix.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
