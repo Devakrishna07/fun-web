@@ -37,7 +37,7 @@ const lyrics = [
   { time: 133, text: "And now love's all it seems" },
   { time: 136, text: "If love's all it seems, and not a frayed away" },
   { time: 141, text: "Will you be mine today?" },
-  {time: 143, text:"💍"}
+  {time: 143, text:"💖💍❓"}
 ];
 
 function LetterPage() {
@@ -86,7 +86,7 @@ function LetterPage() {
       } else {
         clearInterval(typingRef.current);
       }
-    }, 80);
+    }, 75);
 
     return () => clearInterval(typingRef.current);
   }, [currentLine]);
@@ -94,7 +94,7 @@ function LetterPage() {
   return (
     <div className="w-screen min-h-screen bg-pink-200 flex flex-col items-center justify-center p-4">
       <div className="w-full max-w-xl h-[50vh] flex flex-col justify-center items-center bg-white rounded-xl shadow-lg p-6 overflow-hidden">
-        <div className="text-center text-lg sm:text-xl md:text-2xl font-mono text-indigo-700">
+        <div className="text-center text-lg sm:text-xl md:text-2xl font-azonix text-indigo-700">
           {typedText}
         </div>
       </div>
